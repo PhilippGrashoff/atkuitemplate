@@ -1,0 +1,23 @@
+{
+  "name": "philippgrashoff/atkuitemplate",
+  "description": "",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "8.*",
+    "atk4/ui": "5.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhilippR\\Atk4\\ExtendedTemplate\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhilippR\\Atk4\\ExtendedTemplate\\Tests\\": "tests"
+    }
+  }
+}
