@@ -5,10 +5,10 @@
   "prefer-stable": true,
   "require": {
     "php": "8.*",
-    "atk4/ui": "5.*"
+    "atk4/ui": "6.*"
   },
   "require-dev": {
-    "phpunit/phpunit": "10.*"
+    "phpunit/phpunit": "12.*"
   },
   "autoload": {
     "psr-4": {
